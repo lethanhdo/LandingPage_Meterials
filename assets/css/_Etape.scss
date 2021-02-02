@@ -1,0 +1,676 @@
+.Etape {
+    width: 945px;
+    display: flex;
+    flex-wrap: wrap;
+
+    &-circle {
+        width: 300px;
+        margin-bottom: 65px;
+
+        .Etape-item-circle-contain {
+            display: flex;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    &-item {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        .header {
+            z-index: 1;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: $strongred;
+            width: 120px;
+            height: 30px;
+
+            .h2 {
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+                background: $strongred;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                line-height: 1.3;
+                font-family: 'Gotham-Medium';
+                text-transform: uppercase;
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+
+        .title {
+
+            // margin-top: 10px;
+            h3 {
+                font-family: 'Clarins-Regular';
+                font-size: 26px;
+                line-height: 1.3;
+            }
+        }
+
+        .red-title {
+
+            // margin-top: 15px;
+            h4 {
+                line-height: 1.3;
+                font-family: 'Gotham-Medium';
+                text-transform: uppercase;
+                font-size: 14px;
+                color: $strongred;
+            }
+        }
+
+        .text {
+
+            // margin-top: 10px;
+            p {
+                text-align: right;
+            }
+        }
+
+        .button {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #000;
+            width: 130px;
+            height: 30px;
+
+            a {
+                line-height: 1.3;
+                font-family: 'Gotham-Medium';
+                text-transform: uppercase;
+                font-size: 14px;
+                color: #fff;
+            }
+        }
+    }
+
+    &-item-1 {
+        margin-bottom: 65px;
+    }
+
+    &-img-1 {
+        width: 345px;
+        margin-bottom: 65px;
+
+        .name {
+            position: relative;
+        }
+
+        span {
+            font-size: 11px;
+            font-family: 'Gotham-Book';
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    &-item-2 {
+        padding-left: 45px;
+        width: 300px;
+        justify-content: flex-start;
+    }
+
+    &-img-2 {
+        width: 345px;
+
+        .name {
+            position: relative;
+
+            span {
+                font-size: 11px;
+                font-family: 'Gotham-Book';
+                position: absolute;
+            }
+        }
+    }
+
+    &-item-3 {
+        padding-right: 45px;
+        width: 300px;
+        align-items: flex-start;
+        text-align: left;
+
+        .text {
+            p {
+                text-align: left;
+            }
+        }
+
+        .header {
+            position: relative;
+            z-index: 1;
+
+            .img {
+                position: absolute;
+                top: -200px;
+                left: 20px;
+
+                img {
+                    width: 240px;
+                }
+            }
+
+            h2 {}
+        }
+    }
+}
+
+.Etape-1 {
+    .Etape-img-2 {
+        position: relative;
+
+        .so {
+            position: absolute;
+            bottom: -45px;
+            right: 90px;
+            z-index: -1;
+        }
+    }
+
+    .Etape-img-1 {
+        span {
+            top: 96px;
+            right: 77px;
+        }
+    }
+
+    .Etape-img-2 {
+        span {
+            top: 20px;
+            right: 80px;
+        }
+    }
+}
+
+.Etape-2 {
+    .Etape-circle {
+        width: 300px;
+        padding: 0 20px 20px 45px;
+
+        .Etape-item-circle-contain {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+
+            .percent {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                border: 2px solid $strongred;
+                color: $strongred;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-size: 26px;
+                font-family: 'Gotham-Medium';
+            }
+
+            .des {
+                margin-top: 10px;
+
+                p {
+                    font-size: 14px;
+                    font-family: 'Gotham-Book';
+                    text-align: right;
+                }
+
+            }
+
+            .info {
+                margin-top: 40px;
+
+                p {
+                    font-size: 11px;
+                    font-family: 'Gotham-Book';
+                    text-align: right;
+                    color: #b5b5b5;
+                }
+            }
+        }
+    }
+
+    .Etape-img-1 {
+        width: 260px;
+
+        span {
+            top: 211px;
+            right: 12px;
+        }
+    }
+
+    .Etape-img-2 {
+        span {
+            top: 65px;
+            left: 35px;
+        }
+    }
+
+    .Etape-item-1 {
+        width: 385px;
+        padding-right: 45px;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        .text {
+            p {
+                text-align: left;
+            }
+        }
+    }
+
+    .Etape-item-3 {
+        position: relative;
+    }
+}
+
+.cir-per {
+    .Etape-circle {
+        width: 300px;
+        padding: 0 20px 20px 45px;
+
+        .Etape-item-circle-contain {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+
+            .percent {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                border: 2px solid $strongred;
+                color: $strongred;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-size: 26px;
+                font-family: 'Gotham-Medium';
+            }
+
+            .des {
+                margin-top: 10px;
+
+                p {
+                    font-size: 14px;
+                    font-family: 'Gotham-Book';
+                    text-align: right;
+                }
+
+            }
+
+            .info {
+                margin-top: 40px;
+
+                p {
+                    font-size: 11px;
+                    font-family: 'Gotham-Book';
+                    text-align: right;
+                    color: #b5b5b5;
+                }
+            }
+        }
+    }
+}
+
+.Etape-3 {
+    .Etape-img-1 {
+        width: 260px;
+
+        span {
+            top: 211px;
+            right: 12px;
+        }
+    }
+
+    .Etape-img-2 {
+        span {
+            top:120px;
+            left: 35px;
+        }
+    }
+
+    .Etape-item-1 {
+        width: 385px;
+        padding-right: 45px;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        .text {
+            p {
+                text-align: left;
+            }
+        }
+    }
+
+    .Etape-item-3 {
+        position: relative;
+    }
+}
+
+.Etape-4 {
+    .Etape-item-1 {
+        width: 400px;
+        padding-left: 120px;
+    }
+
+    .Etape-img-1 {
+        span {
+            top: 96px;
+            right: 77px;
+        }
+    }
+
+    .Etape-img-2 {
+        span {
+            top: 15px;
+            right: 55px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .Etape {
+        max-width: 768px;
+
+        .Etape-circle {
+            width: 240px;
+        }
+
+        .Etape-item {
+            width: 240px;
+        }
+
+        .Etape-img-1 {
+            width: 254px;
+        }
+
+        .Etape-img-2 {
+            width: 288px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .Etape-item-3 {
+            .header {
+                .img {
+                    top: -150px;
+
+                    img {
+                        width: 180px;
+                    }
+                }
+            }
+        }
+    }
+
+    .Etape-4 {
+        .Etape-item-1 {
+            width: 400px;
+        }
+    }
+
+    .Etape-1 {
+        .Etape-img-1 {
+            span {
+                top: 96px;
+                right: -3px;
+            }
+        }
+
+        .Etape-img-2 {
+            span {
+                right: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .Etape {
+        max-width: 414px;
+
+        .Etape-item-1 {
+            width: 50%;
+        }
+
+        .Etape-img-1 {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .button {
+            a {
+                font-size: 11px;
+            }
+        }
+
+        .Etape-item-2 {
+            width: 270px;
+        }
+
+        .Etape-img-2 {
+            margin: 0 0 0 auto;
+        }
+
+        .Etape-item-3 {
+            margin-left: auto;
+
+            .header {
+                .img {
+                    top: -150px;
+                    left: -210px;
+
+                    img {
+                        width: 200px !important;
+                    }
+                }
+            }
+        }
+
+        .Etape-circle {
+            width: 100%;
+            padding: 0;
+
+            .Etape-item-circle-contain {
+                padding: 10px;
+                display: flex;
+                flex-direction: row !important;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+
+                .des {
+                    width: 72% !important;
+                    margin: auto auto auto 10px;
+
+                    p {
+                        text-align: left !important;
+                    }
+                }
+
+                .info {
+                    margin-top: 20px;
+
+                    p {
+                        text-align: center !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .Etape-1 {
+        .Etape-circle {
+            display: none;
+        }
+
+        .Etape-item-3 {
+            margin-top: 50px;
+        }
+    }
+
+    .Main-2 {
+        .Etape-item-3 {
+            .header {
+                img {}
+            }
+        }
+    }
+
+    .Etape-1 {
+        .Etape-img-1 {
+            span {
+                top: 230px;
+                right: 35px;
+            }
+        }
+
+        .Etape-img-2{
+            .so{
+                width: 155%;
+            }
+        }
+    }
+
+    .Etape-2 {
+        .Etape-circle{
+            order: 3;
+        }
+        .Etape-img-1 {
+            order: 2;
+            span {
+                top: 230px;
+                right: 42px;
+            }
+        }
+
+        .Etape-img-2{
+            order: 5;
+            margin-right: 5%;
+        }
+
+        .Etape-item-1{
+            order: 1;
+            padding: 0;
+            align-items: flex-end;
+            text-align: right;
+
+            .text p{
+                text-align: right;
+            }
+        }
+        .Etape-item-2{
+            order: 4;
+        }
+        .Etape-item-3{
+            order: 6; 
+            z-index: -1;  
+            padding-right: 0;        
+        }
+    }
+
+    .Etape-3 {
+        .Etape-circle{
+            order: 3;
+        }
+        .Etape-img-1 {
+            order: 2;
+            span {
+                top: 230px;
+                right: 42px;
+            }
+        }
+
+        .Etape-img-2{
+            order: 5;
+            margin-right: 10%;
+        }
+
+        .Etape-item-1{
+            order: 1;
+            padding: 0;
+            align-items: flex-end;
+            text-align: right;
+
+            .text p{
+                text-align: right;
+            }
+        }
+        .Etape-item-2{
+            order: 4;
+        }
+        .Etape-item-3{
+            order: 6; 
+            z-index: -1;  
+            padding-right: 0;     
+            .header{
+                display: none;
+            }   
+        }
+    }
+
+    .Etape-4 {
+        .Etape-img-1 {
+            span {
+                top: 230px;
+                right: 35px;
+            }
+        }
+
+        .Etape-img-2 {
+            span {
+                right: 15px;
+            }
+        }
+
+        .Etape-item-1{
+            padding-left: 0;
+        }
+
+        .Etape-item-2{
+            margin-bottom: 65px;
+        }
+    }
+
+
+
+    .Etape .Etape-item-3 .header .img img {
+        width: 245px !important;
+        z-index: -1;
+        display: none;
+    }
+
+    .Etape-item-3{
+        padding: 0;
+        z-index: -1;
+    }
+}
