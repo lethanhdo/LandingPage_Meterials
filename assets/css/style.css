@@ -429,6 +429,12 @@ p {
   }
 }
 
+@media (max-width: 376px) {
+  .container {
+    width: 375px !important;
+  }
+}
+
 .Header {
   width: 100%;
 }
@@ -683,6 +689,12 @@ p {
   }
   .Main .Banner .text p {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 376px) {
+  .Main .Banner {
+    max-width: 375px;
   }
 }
 
@@ -1333,6 +1345,15 @@ p {
   .Etape-item-3 {
     padding: 0;
     z-index: -1;
+  }
+}
+
+@media (max-width: 376px) {
+  .Etape {
+    max-width: 375px;
+  }
+  .Etape-1 .red-title {
+    text-align: right;
   }
 }
 /*# sourceMappingURL=style.css.map */

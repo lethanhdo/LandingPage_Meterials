@@ -674,3 +674,15 @@
         z-index: -1;
     }
 }
+
+@media (max-width: 376px) {
+    .Etape {
+        max-width: 375px;
+    }
+
+    .Etape-1{
+        .red-title{
+            text-align: right;
+        }
+    }
+}
